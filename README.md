@@ -7,8 +7,8 @@ This is a simple python package for statistical distributions. Currently this pa
 ![pypi][pypi]&nbsp;
 ![wheel][wheel]&nbsp;
 ![code size][code size]&nbsp;
-[![Contributor Covenant][Contributor Covenant]](code_of_conduct.md)&nbsp;
-[![License][License]](LICENSE)&nbsp;
+[![Contributor Covenant][Contributor Covenant]][code_of_conduct.md file]&nbsp;
+[![License][License]][License file]&nbsp;
 
 ## Installation
 
@@ -91,12 +91,12 @@ Here, we read data from a file, `b.replace_stats_with_data()calculate mean, stan
 
 We appreciate feedback and contribution to this repo! Before you get started, please see the following:
 
-- [Contribution Guidelines](CONTRIBUTING.md)
-- [Code of Conduct Guidelines](code_of_conduct.md)
+- [Contribution Guidelines][CONTRIBUTING.md file]
+- [Code of Conduct Guidelines][code_of_conduct.md file]
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE][License file] file for details
 
 [gaussian]: https://raw.githubusercontent.com/ashishlamsal/minimal-stats/main/sample/gaussian_distribution.png
 [binomial]: https://raw.githubusercontent.com/ashishlamsal/minimal-stats/main/sample/binomial_distribution.png
@@ -109,3 +109,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [code size]: https://img.shields.io/github/languages/code-size/ashishlamsal/minimal-stats?style=flat-square
 [Contributor Covenant]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg (code_of_conduct.md)
 [License]: https://img.shields.io/github/license/ashishlamsal/minimal-stats?style=flat-square (LICENSE)
+[License file]: https://github.com/ashishlamsal/minimal-stats/blob/main/LICENSE
+[CONTRIBUTING.md file]:  https://github.com/ashishlamsal/minimal-stats/blob/main/CONTRIBUTING.md
+[code_of_conduct.md file]: https://github.com/ashishlamsal/minimal-stats/blob/main/code_of_conduct.md

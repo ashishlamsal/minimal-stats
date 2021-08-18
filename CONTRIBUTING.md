@@ -3,7 +3,7 @@
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change.
 
-Please note we have a [code of conduct](code_of_conduct.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct][code_of_conduct.md file], please follow it in all your interactions with the project.
 
 ## Pull Request Process
 
@@ -23,4 +23,7 @@ In general, we follow the ["fork-and-pull"](https://gist.github.com/Chaser324/ce
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under its [MIT License](LICENSE).
+By contributing, you agree that your contributions will be licensed under its [MIT License][License file].
+
+[License file]: https://github.com/ashishlamsal/minimal-stats/blob/main/LICENSE
+[code_of_conduct.md file]: https://github.com/ashishlamsal/minimal-stats/blob/main/code_of_conduct.md
