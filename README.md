@@ -1,6 +1,14 @@
-# minimal-stats
+# [minimal-stats][pypi Link]
 
-This is a simple python package for statistical distributions. Currently this package calcuates Binomial and Gaussain distribution.
+This is a simple python package for statistical distributions. Currently this package calcuates Binomial and Gaussian distribution.
+
+![build][build]&nbsp;
+![Python][Python]&nbsp;
+![pypi][pypi]&nbsp;
+![wheel][wheel]&nbsp;
+![code size][code size]&nbsp;
+![Contributor Covenant][Contributor Covenant]&nbsp;
+![License][License]&nbsp;
 
 ## Installation
 
@@ -17,10 +25,10 @@ We can directly provide the mean and standard deviation of data (or read data fr
     >>> g1 = Gaussian(180, 34)
     >>> g1
     g = Gaussian(mean=180, stdev=34)
-    
+
     >> str(g1)
     'mean 180, standard deviation 34'
-    
+
     >>> g2 = Gaussian(180, 34)
     >>> g1 + g2
     g = Gaussian(mean=360, stdev=48.08326112068523)
@@ -32,7 +40,7 @@ Here, we read data from a file, calculate mean, standard deviation and probabili
     >>> from distributions import Gaussian
     >>> g = Gaussian()
     >>> g.read_data_file(r'\tests\input\numbers.txt')
-    
+
     >>> g.calculate_mean()
     78.0909090909091
     >>> g.calculate_stdev()
@@ -79,5 +87,25 @@ Here, we read data from a file, `b.replace_stats_with_data()calculate mean, stan
 
 ![binomial image][binomial]
 
+## Contribution
+
+We appreciate feedback and contribution to this repo! Before you get started, please see the following:
+
+- [Contribution Guidelines](CONTRIBUTING.md)
+- [Code of Conduct Guidelines](code_of_conduct.md)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 [gaussian]: https://raw.githubusercontent.com/ashishlamsal/minimal-stats/main/sample/gaussian_distribution.png
 [binomial]: https://raw.githubusercontent.com/ashishlamsal/minimal-stats/main/sample/binomial_distribution.png
+
+[pypi link]: https://pypi.org/project/minimal-stats/
+[build]: https://img.shields.io/github/workflow/status/ashishlamsal/minimal-stats/Package?style=flat-square
+[Python]: https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff
+[pypi]: https://img.shields.io/pypi/v/minimal-stats?style=flat-square
+[wheel]: https://img.shields.io/pypi/wheel/minimal-stats?style=flat-square
+[code size]: https://img.shields.io/github/languages/code-size/ashishlamsal/minimal-stats?style=flat-square
+[Contributor Covenant]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg (code_of_conduct.md)
+[License]: https://img.shields.io/github/license/ashishlamsal/minimal-stats?style=flat-square (LICENSE)
