@@ -4,7 +4,7 @@ from .Generaldistribution import Distribution
 
 
 class Binomial(Distribution):
-    """ Binomial distribution class for calculating and 
+    """ Binomial distribution class for calculating and
     visualizing a Binomial distribution.
 
     Attributes:
@@ -36,10 +36,10 @@ class Binomial(Distribution):
     def calculate_mean(self):
         """Function to calculate the mean from p and n
 
-        Args: 
+        Args:
             None
 
-        Returns: 
+        Returns:
             float: mean of the data set
 
         """
@@ -50,10 +50,10 @@ class Binomial(Distribution):
     def calculate_stdev(self):
         """Function to calculate the standard deviation from p and n.
 
-        Args: 
+        Args:
             None
 
-        Returns: 
+        Returns:
             float: standard deviation of the data set
 
         """
@@ -65,10 +65,10 @@ class Binomial(Distribution):
         """Function to calculate p and n from the data set.
         Assume that the data is a list of zeros and ones like [0 1 0 1 1 0 1]
 
-        Args: 
+        Args:
             None
 
-        Returns: 
+        Returns:
             float: the p value
             float: the n value
 
@@ -81,7 +81,7 @@ class Binomial(Distribution):
         return self.p, self.n
 
     def plot_bar(self):
-        """Function to output a bar graph of the instance variable data using 
+        """Function to output a bar graph of the instance variable data using
         matplotlib pyplot library.
 
         Args:
@@ -176,7 +176,7 @@ class Binomial(Distribution):
             string: characteristics of the Binomial
 
         """
-        
+
         return f'b = Binomial(p={self.p}, n={self.n})'
 
     def __str__(self):

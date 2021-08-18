@@ -4,13 +4,13 @@ from .Generaldistribution import Distribution
 
 
 class Gaussian(Distribution):
-    """ Gaussian distribution class for calculating and 
+    """ Gaussian distribution class for calculating and
     visualizing a Gaussian distribution.
 
     Attributes:
             mean (float) representing the mean value of the distribution
             stdev (float) representing the standard deviation of the distribution
-            data (list of floats) a list of floats extracted from the data file			
+            data (list of floats) a list of floats extracted from the data file
     """
 
     def __init__(self, mu=0, sigma=1):
@@ -19,10 +19,10 @@ class Gaussian(Distribution):
     def calculate_mean(self):
         """Function to calculate the mean of the data set.
 
-        Args: 
+        Args:
                 None
 
-        Returns: 
+        Returns:
                 float: mean of the data set
 
         """
@@ -32,10 +32,10 @@ class Gaussian(Distribution):
     def calculate_stdev(self, sample=True):
         """Function to calculate the standard deviation of the data set.
 
-        Args: 
+        Args:
                 sample (bool): whether the data represents a sample or population
 
-        Returns: 
+        Returns:
                 float: standard deviation of the data set
 
         """
@@ -47,7 +47,7 @@ class Gaussian(Distribution):
         return self.stdev
 
     def plot_histogram(self, n_spaces=5):
-        """Function to output a histogram of the instance variable data using 
+        """Function to output a histogram of the instance variable data using
         matplotlib pyplot library.
 
         Args:
@@ -77,11 +77,11 @@ class Gaussian(Distribution):
         return 1.0 / (self.stdev * math.sqrt(2 * math.pi)) * math.exp(-1/2 * pow((x-self.mean)/self.stdev, 2))
 
     def plot_histogram_pdf(self, n_spaces=50):
-        """Function to plot the normalized histogram of the data and a plot of the 
+        """Function to plot the normalized histogram of the data and a plot of the
         probability density function along the same range
 
         Args:
-                n_spaces (int): number of data points 
+                n_spaces (int): number of data points
 
         Returns:
                 list: x values for the pdf plot
