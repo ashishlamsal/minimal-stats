@@ -7,8 +7,8 @@ This is a simple python package for statistical distributions. Currently this pa
 ![pypi][pypi]&nbsp;
 ![wheel][wheel]&nbsp;
 ![code size][code size]&nbsp;
-![Contributor Covenant][Contributor Covenant]&nbsp;
-![License][License]&nbsp;
+[![Contributor Covenant][Contributor Covenant]](code_of_conduct.md)&nbsp;
+[![License][License]](LICENSE)&nbsp;
 
 ## Installation
 
