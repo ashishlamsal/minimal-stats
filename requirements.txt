@@ -20,7 +20,7 @@ minimal-stats==0.0.1
 numpy==1.21.2
 packaging==21.0
 pep517==0.11.0
-Pillow==8.3.2
+Pillow==9.0.0
 pkginfo==1.7.1
 pluggy==0.13.1
 py==1.10.0
