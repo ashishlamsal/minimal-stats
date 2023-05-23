@@ -1,4 +1,4 @@
-﻿atomicwrites==1.4.0
+atomicwrites==1.4.0
 attrs==21.2.0
 autopep8==1.5.7
 bleach==4.0.0
@@ -32,7 +32,7 @@ pytest==6.2.4
 python-dateutil==2.8.2
 pywin32-ctypes==0.2.0
 readme-renderer==29.0
-requests==2.26.0
+requests==2.31.0
 requests-toolbelt==0.9.1
 rfc3986==1.5.0
 six==1.16.0
