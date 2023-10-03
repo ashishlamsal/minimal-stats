@@ -1,4 +1,4 @@
-﻿atomicwrites==1.4.0
+atomicwrites==1.4.0
 attrs==21.2.0
 autopep8==1.5.7
 bleach==4.0.0
@@ -40,6 +40,6 @@ toml==0.10.2
 tomli==1.2.1
 tqdm==4.62.1
 twine==3.4.2
-urllib3==1.26.6
+urllib3==1.26.17
 webencodings==0.5.1
 zipp==3.5.0
